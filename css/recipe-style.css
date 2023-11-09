@@ -38,12 +38,12 @@ nav a {
 
 nav a:link,
 nav a:visited {
-
+    text-decoration: none;
 }
 
 nav a:hover,
 nav a:active {
-    background-color: #c983268d;
-    text-decoration: underline;
+    background-color: #efc58e;
     color: #50504f;
+    text-decoration: underline;
 }
