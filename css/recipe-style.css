@@ -1,0 +1,49 @@
+/* 
+font-family: 'Chonburi', serif; 
+font-family: 'Actor', sans-serif;
+*/
+
+html {
+    box-sizing: border-box;
+    font-family: 'Actor', sans-serif;
+    font-size: 1.20rem;
+    line-height: 125%;
+    color: #50504f;
+}
+
+*, 
+* ::before, 
+* ::after {
+    box-sizing: inherit;
+}
+
+nav {
+    background-color: #c98226;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:link,
+nav a:visited {
+
+}
+
+nav a:hover,
+nav a:active {
+    background-color: #c983268d;
+    text-decoration: underline;
+    color: #50504f;
+}
