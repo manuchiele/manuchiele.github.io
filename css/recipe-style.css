@@ -18,7 +18,7 @@ html {
 }
 
 nav {
-    background-color: #c98226;
+    background-color: #db8e29;
     text-align: center;
     margin-bottom: 3.5rem;
 }
@@ -46,4 +46,112 @@ nav a:active {
     background-color: #efc58e;
     color: #50504f;
     text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Chonburi', serif; 
+    text-shadow: 1px 2px 1px #ccc;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 6% 0;
+    text-align: center;
+}
+
+img {
+    float: left;
+    max-width: 33%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    box-shadow: 3px 5px 3px #ccc;
+    shape-outside: circle(50%);
+}
+
+header h2 {
+    margin-top: 8%;
+    text-shadow: 3px 3px 3px #ccc;
+}
+
+.rate {
+    clear: both;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.emoji::after {
+    content: "\1f370";
+}
+
+.details, 
+.ingredients, 
+.instructions, 
+.nutrition {
+    width: 40%;
+    float: left;
+}
+
+.details,
+.instructions {
+    margin-right: 16%;
+    margin-left: 2%;
+}
+
+blockquote {
+    clear: both;
+    width: 300px;
+    height: 280px;
+    padding: 78px 16px 0 20px;
+    border-radius: 50%;
+    background-color: #db8e29;
+    outline: dotted 7px #ba761e;
+    outline-offset: 6px;
+    font-family: 'Chonburi', serif;
+    font-size: 25px; 
+    color: white;
+    text-align: center;
+    margin: 40px auto;
+}
+
+blockquote small {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #db8e29;
+    color: white;
+    padding: 2% 0;
+    margin-top: 10px;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.col1,
+.col2, 
+.col3 {
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+footer p {
+    clear: both;
 }
