@@ -161,20 +161,13 @@ footer p {
 @media (max-width: 810px) {
 
     html {
-
-    }
-}
-
-@media (max-width: 360px) {
-
-    html {
         line-height: 135%;
     }
 
     nav a {
-        padding: 5px;
+        padding: 10px;
         letter-spacing: normal;
-        font-size: .5rem;
+        font-size: 22px;
     }
 
     nav ul {
@@ -186,7 +179,66 @@ footer p {
     }
 
     h1 {
+        font-size: 35px;
+        margin: 5% 0;  
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        float: none;
+        max-width: 55%;
+        margin-left: 22%;
+    }
+
+    header h2 {
+        margin-top: 5%;
+    }
+
+    .rate {
         font-size: 1rem;
+        margin-top: 5%;
+    }
+
+    .details, 
+    .ingredients, 
+    .instructions, 
+    .nutrition {
+        width: 70%;
+        float: none;
+    }
+
+    footer {
+        padding: 1% 0;
+        margin-top: 8px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    html {
+        line-height: 135%;
+    }
+
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
+
+    nav ul {
+        padding-left: 5px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
         text-shadow: none;
     }
 
@@ -196,8 +248,11 @@ footer p {
 
     img {
         float: none;
-        max-width: 60%;
+        max-width: 65%;
         margin-left: 20%;
+        box-shadow: none;
+        outline: dashed 2px #ba761e;
+        outline-offset: 2px;
     }
 
     .rate {
@@ -208,13 +263,18 @@ footer p {
     .ingredients, 
     .instructions, 
     .nutrition {
-        width: 90%;
+        width: 80%;
         float: none;
     }
 
     blockquote {
         max-width: 85%;
         max-height: 80%;
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 1% 0;
     }
 
     .col1,
